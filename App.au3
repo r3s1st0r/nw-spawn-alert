@@ -70,7 +70,7 @@ Func StartTimer()
 		$seconds=Round(TimerDiff($timer)/1000,0)
 		$timerOfEnemieAsSecound =  Round($iTimerOfEnemie/1000,0)
 		$result = $timerOfEnemieAsSecound - $seconds
-		GUICtrlSetData($Label_counter, GUICtrlRead($Combo_enemie) & " respawn in " & $result & " secounds !")
+		GUICtrlSetData($Label_counter, GUICtrlRead($Combo_enemie) & " respawn in " & $result & " seconds !")
     WEnd
 
     playSound()
